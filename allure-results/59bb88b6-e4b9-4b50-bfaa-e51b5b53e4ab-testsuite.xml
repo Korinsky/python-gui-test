@@ -1,0 +1,37 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1629280013441" stop="1629280015416">
+  <name>test.test_delete_group</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1629280013441" status="passed" stop="1629280015416">
+      <name>test_delete_group</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="42556-MainThread"/>
+        <label name="host" value="Kori-Home"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1629280013449" status="passed" stop="1629280013775">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1629280013775" status="passed" stop="1629280014633">
+          <name>When I deleted the group to the list</name>
+          <title>When I deleted the group to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1629280014633" status="passed" stop="1629280015416">
+          <name>Then the new group list is equal to the old list without deleted group</name>
+          <title>Then the new group list is equal to the old list without deleted group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

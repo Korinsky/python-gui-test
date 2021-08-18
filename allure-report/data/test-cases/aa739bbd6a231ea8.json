@@ -1,0 +1,116 @@
+{
+  "uid" : "aa739bbd6a231ea8",
+  "name" : "test_delete_group",
+  "fullName" : "test.test_delete_group.test_delete_group",
+  "historyId" : "2645f762bd19060aa2e9078d4a960bc",
+  "time" : {
+    "start" : 1629280013441,
+    "stop" : 1629280015416,
+    "duration" : 1975
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given a group list",
+      "time" : {
+        "start" : 1629280013449,
+        "stop" : 1629280013775,
+        "duration" : 326
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When I deleted the group to the list",
+      "time" : {
+        "start" : 1629280013775,
+        "stop" : 1629280014633,
+        "duration" : 858
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then the new group list is equal to the old list without deleted group",
+      "time" : {
+        "start" : 1629280014633,
+        "stop" : 1629280015416,
+        "duration" : 783
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Kori-Home"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "42556-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test.test_delete_group"
+  }, {
+    "name" : "testClass",
+    "value" : "test.test_delete_group"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_delete_group"
+  }, {
+    "name" : "package",
+    "value" : "test.test_delete_group"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa739bbd6a231ea8.json",
+  "parameterValues" : [ ]
+}

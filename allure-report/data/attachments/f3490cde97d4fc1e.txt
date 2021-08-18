@@ -1,0 +1,2 @@
+c:\users\user\pycharmprojects\python-gui-test\venv\lib\site-packages\pywinauto\application.py:1087: UserWarning: 32-bit application should be automated using 32-bit Python (you use 64-bit Python)
+  UserWarning)

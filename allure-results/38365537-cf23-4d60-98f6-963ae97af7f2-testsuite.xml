@@ -1,0 +1,40 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1629280009800" stop="1629280013434">
+  <name>test.test_add_group</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1629280009800" status="passed" stop="1629280013434">
+      <name>test_add_group</name>
+      <attachments>
+        <attachment source="d188d823-b61a-4444-bced-99bbaeea20d6-attachment.txt" title="Captured stderr setup" type="text/plain"/>
+        <attachment source="5abf8b2e-a1f8-435f-9e2f-3436135e0c19-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="42556-MainThread"/>
+        <label name="host" value="Kori-Home"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1629280012062" status="passed" stop="1629280012354">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1629280012354" status="passed" stop="1629280013152">
+          <name>When I add the group to the list</name>
+          <title>When I add the group to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1629280013152" status="passed" stop="1629280013433">
+          <name>Then the new group list is equal to the old list with the added group</name>
+          <title>Then the new group list is equal to the old list with the added group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
